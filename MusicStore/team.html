@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Meet us</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Adding Styles to team images-->
+    <style>
+        .team {
+        border: 10px solid transparent;
+        margin-bottom: 25px;
+        width: 80%;
+        height: 80%;
+        opacity: 0.9;
+        }
+        .team:hover {
+        border-color: #f1f1f1;
+        }
+    </style>
+
+</head>
+<body>
+
+    <<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                </button>
+                <a class="navbar-brand" href="index.html">Fictional Store</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Navigation bar options-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#band">PRICING</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="team.html">MEET US</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>   
+                 </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of navigation -->
+
+    <!-- Start of team members container + margin brdo 3alshan el navigation -->
+    <div class="container text-center" style="margin-top:50px;">
+        <h3>Meet our team</h3>
+        <p><em>We love music, as much as you do !</em></p>
+        <p>We have created a fictional music store called "X"</p>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p><strong>Yehia Ezzat</strong></p><br>
+                <a href="#y_info" data-toggle="collapse"> <!-- To make collapsable information clickable-->
+                    <img src="img/member.jpg" class="img-circle team" alt="Yehia's picture'">
+                </a>
+                <div id="y_info" class="collapse">  <!-- Yehia's information-->
+                    <p>CEO & Founder</p>
+                    <p>Age:22</p>
+                    <p>Alexandria,Egypt</p>
+                </div>
+             </div>
+            <div class="col-sm-4">
+                <p><strong>Amr Soliman</strong></p><br>
+                <a href="#amr_info" data-toggle="collapse">
+                    <img src="img/member.jpg" class="img-circle team" alt="Amr's picture'">
+                </a>
+                <div id="amr_info" class="collapse"> <!-- Amr's information-->                                                  
+                    <p>CFO</p>
+                    <p>Age:21</p>
+                    <p>Boston</p>
+                </div>
+             </div>
+            <div class="col-sm-4">
+                <p><strong>Ahmed Hanie</strong></p><br>
+                <a href="#hanie_info" data-toggle="collapse">
+                    <img src="img/member.jpg" class="img-circle team" alt="Ahmed's picture'">
+                </a>
+                <div id="hanie_info" class="collapse">  <!-- Hanie's information-->                  
+                    <p>Web Developer</p>
+                    <p>Age:22</p>
+                    <p>Cairo,Egypt</p>
+                </div>
+           </div>
+        </div>
+    </div>
+
+
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

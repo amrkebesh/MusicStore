@@ -1,0 +1,6 @@
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\bin\MusicStore.dll.config
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\bin\MusicStore.dll
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\bin\MusicStore.pdb
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\obj\Debug\MusicStore.csprojResolveAssemblyReference.cache
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\obj\Debug\MusicStore.dll
+c:\users\yehia\documents\visual studio 2013\Projects\MusicStore\MusicStore\obj\Debug\MusicStore.pdb

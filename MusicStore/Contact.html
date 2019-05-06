@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contact us</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                </button>
+                <a class="navbar-brand" href="index.html">Fictional Store</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Navigation bar options-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#band">PRICING</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="team.html">MEET US</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of navigation-->
+
+    <!-- Start of a container to hold all page contents, w 3amlt margin top 3alshan ma yedkholsh 3al navigation menu-->
+    <div class="container" style="margin-top:50px;">
+        <div class="alert alert-dismissible alert-info">
+            <button type="button" class="close" data-dismiss="alert"></button>
+            <h4>Heads up!</h4>
+            <p>Please allow up to 3 business days in order to get a response.</p>
+        </div>
+        <!--End of Note-->
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>Fan? Drop a note.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

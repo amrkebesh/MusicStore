@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>X Music Store</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                    <span class="icon-bar"></span> <!-- ben7tohom 3alshan lama ne-resize yeb2a 3andak button like shape on smaller screens.-->
+                </button>
+                <a class="navbar-brand" href="index.html">Fictional Store</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Navigation bar options-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#band">PRICING</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="team.html">MEET US</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of navigation-->
+
+        <div class="container" style="margin-top:50px;"> 
+            <div class="alert alert-dismissible alert-info" style="text-align:center;">
+                <button type="button" class="close" data-dismiss="alert"></button>
+                <strong>Register your account now!</strong>
+            </div>
+            <form class="form-horizontal" role="form">
+                <div class="form-group"> <!-- We use form-group to get optiumum spacing-->
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Verify Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd2" placeholder="Verify password">
+                    </div>
+                </div>
+                <!--Using offset to shift columns to the right.-->
+                <div class="form-group">
+                    <div class="radio col-sm-offset-2">
+                        <label><input type="radio" name="optradio">Male</label>
+                    </div>
+                    <div class="radio col-sm-offset-2">
+                        <label><input type="radio" name="optradio">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2  col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+
+</body>
+</html>
